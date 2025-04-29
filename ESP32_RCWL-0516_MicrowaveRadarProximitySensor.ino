@@ -6,6 +6,8 @@
   The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
+// Simplificando: Solo se trata de leer un pin digital del ESP32 y dependiendo de su estado (HIGH / LOW) obrar en consecuencia
+
 int led = 2;                // the pin that the LED is attached to
 int sensor = 19;            // the pin that the sensor is attached to
 int state = LOW;            // by default, no motion detected
